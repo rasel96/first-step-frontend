@@ -227,3 +227,77 @@ a {
   font-weight: 500;
   color: #001931;
 }
+/*Think Section*/
+#think {
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 80px;
+  background-color: #f7f6f2;
+  padding-top: 80px;
+  border-radius: 8px;
+}
+.think-content h2 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #001931;
+}
+.think-content p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  padding-top: 16px;
+  padding-bottom: 24px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.think-content button {
+  display: inline-flex;
+  gap: 4px;
+}
+.think-content .sp-p {
+  padding-bottom: 80px;
+}
+/*Foter*/
+
+footer {
+  background-color: #001931;
+  margin-top: 110px;
+}
+.footer-content {
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 80px;
+}
+.footer-con {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.logo-social {
+  color: #f7f6f2;
+  font-size: 20px;
+  font-weight: 500;
+}
+.logo-social .logoss {
+  display: flex;
+  gap: 16px;
+  padding-top: 10px;
+}
+.logo-social .logoss a {
+  color: #f7f6f2;
+}
+.hrr-special {
+  border: none;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.162);
+}
+
+.footer-content .speciall-h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fafafafa;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
