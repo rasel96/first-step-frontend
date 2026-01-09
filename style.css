@@ -118,15 +118,112 @@ a {
   border: 1px solid white;
   background-color: transparent;
   margin-left: 10px;
-
 }
-.fa-play{
+.fa-play {
   padding-right: 16px;
 }
 .btn-special2:hover,
 .btn-special2:active {
   color: #2a9e5c;
   cursor: pointer;
-  
+
   border: 1px solid #2a9e5c;
+}
+
+/*Notes section*/
+
+#notes {
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 80px;
+}
+.notes-heading h2 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.notes-heading p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 44px;
+}
+.notes-box {
+  display: flex;
+  gap: 24px;
+}
+.notes-card img {
+  max-width: 60px;
+  background-color: #f95555;
+  padding: 12px;
+  border-radius: 100%;
+}
+.notes-card h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.notes-card p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 44px;
+}
+.notes-card {
+  max-width: 322px;
+  box-shadow: 0px 0px 8px #00000020;
+  margin: 0 auto;
+  padding-top: 69px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 2px;
+}
+.notes2 {
+  display: flex;
+  margin-top: 120px;
+  gap: 60px;
+}
+.notes-bg {
+  max-width: 600px;
+}
+.notes2-content {
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
+.notes2-content h4 {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  color: #30b868;
+  margin-bottom: 16px;
+}
+.notes2-content h2 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #001931;
+
+  text-align: left;
+}
+.notes2-content p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-top: 16px;
+  margin-bottom: 44px;
+  text-align: left;
+}
+
+.notes2-content ul {
+  text-align: left;
+}
+.notes2-content ul li {
+  display: inline-flex;
+  gap: 3px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #001931;
 }
